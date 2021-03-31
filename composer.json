@@ -1,0 +1,30 @@
+{
+    "name": "kilyakus/yii2-package-filemanager",
+    "description": "Yii2 filemanager",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PendalF",
+            "email": "pendalf@mail.ru"
+        },
+		{
+            "email": "aleksandr.kilyakov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-imagine": "*",
+        "arter/yii2-tinymce": "*",
+        "kartik-v/yii2-widget-alert": "*",
+        "kilyakus/yii2-widget-select2": "*",
+        "2amigos/yii2-file-upload-widget": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kilyakus\\package\\filemanager\\": ""
+        }
+    }
+}
