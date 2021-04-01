@@ -12,7 +12,6 @@
             "email": "aleksandr.kilyakov@gmail.com"
         }
     ],
-    "prefer-stable": true,
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-imagine": "*",
